@@ -1,3 +1,3 @@
 <footer class="footer">
-    Construit avec ❤ par les enseignants de l'<a href="https://www.ensc.fr">ENSC</a>.
+    Réalisé par Nicolas Martin - Julien Brochier - Youri Marquise, étudiants à l'ENSC</a>.
 </footer>
