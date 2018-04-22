@@ -1,5 +1,4 @@
 <?php require_once "includes/functions.php"; ?>
-<link rel="stylesheet" type="text/css" href="css/style.css">
 
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
@@ -21,10 +20,12 @@
                     <li>
                         <a href="organisation.php">
                         L'organisation
+                        </a>
                     </li>
                     <li>
                      <a href="livrables.php">
                      Les livrables
+                    </a>
                      </li>
             </ul>
         </div>
