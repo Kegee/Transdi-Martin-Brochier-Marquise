@@ -9,17 +9,25 @@ body {
     text-align: center;
 }
 
-.movieTitle:hover,
-.movieTitle:focus {
+.title {
+    font-size: medium;
+}
+.title:hover,
+.title:focus {
     text-decoration: none;
 }
 
-.movieContent {
+.content {
     text-align: justify;
 }
 
-.movieImage {
+.image {
     border-radius: 7px;
     border: 4px solid white;
     box-shadow: 1px 1px 10px #555;
+}
+
+.small {
+    height: 40%;
+    width: 40%;
 }
