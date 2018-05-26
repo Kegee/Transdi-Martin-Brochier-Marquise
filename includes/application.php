@@ -10,36 +10,85 @@ require_once "functions.php";
 
 <body>
     <div class="container">
-        <?php require_once "headerIncludes.php"; ?>
+        <h1> Présentation </h1>
 
-<h3> <span class="glyphicon glyphicon-star"> </span> Qui ? </h3>
-<ul>
-<li>Toute personne étant intéressée par l’effet du son sur le cerveau.</li>
-<li>Le public souhaitant se relaxer, se concentrer.</li>
-<li>Tout public voulant se divertir.</li>
-</ul>
+    
+ <div id="Carousel" class="carousel slide" "col-md-4" data-ride="carousel">
 
-<h3> <span class="glyphicon glyphicon-star"> </span> Quoi ? </h3>
-<ul>
-<li>Application dont le but est de relaxer, favoriser la concentration dans un contexte agréable </li>
-<li>Enjeux de santé publique</li>
-</ul>
+  <ol class="carousel-indicators">
+    <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#Carousel" data-slide-to="1"></li>
+    <li data-target="#Carousel" data-slide-to="2"></li>
+  </ol>
 
-<h3> <span class="glyphicon glyphicon-star"> </span>Où ? </h3>
-<ul>
-<li>Dans un lieu calme</li>
-</ul>
 
-<h3> <span class="glyphicon glyphicon-star"> </span> Quand ? </h3>
-<ul>
-<li>A tout moment où l’utilisateur souhaite se détendre, se reposer ou dormir.</li>
-</ul>
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="../images/menu.png" alt="Menu" class="img-responsive">
+      <div class="carousel-caption">
+        <h3>Menu</h3>
+    </div>
 
-<h3> <span class="glyphicon glyphicon-star"> </span> Comment ? </h3>
-<ul> <li> Application sous Unity avec le téléphone / tablette </li>
-<li>Casque de VR </li>
-<li>Ecouteur / Casque de musique </li>
-</ul>
+    <div class="item">
+      <img src="../images/capture1.png" alt="Musique binaurale" class="img-responsive">
+      <div class="carousel-caption">
+        <h3>Lancement d'une musique binaurale</h3>
+    </div>
+
+    <div class="item">
+      <img src="../images/capture2.png" alt="Choix de musique" class="img-responsive">
+      <div class="carousel-caption">
+        <h3>Choix de musiques</h3>
+    </div>
+  </div>
+
+
+  <a class="left carousel-control" href="#Carousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Précédent</span>
+  </a>
+  <a class="right carousel-control" href="#Carousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Suivant</span>
+  </a>
+</div>
+
+<!-->
+  <div class="col-md-4">
+    <div class="thumbnail">
+        <a href="../images/menu.png">
+        <img src="../images/menu.png" alt="Menu" style="width:50%" class="img-responsive">
+        <div class="caption">
+          <p>Menu de l'application</p>
+        </div>
+        </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+    <a href="../images/capture1.png">
+        <img src="../images/capture1.png" alt="Musique binaurale" style="width:50%" class="img-responsive">
+        <div class="caption">
+          <p>Lancement d'une musique binaural</p>
+        </div>
+        </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+    <a href="../images/capture2.png">
+        <img src="../images/capture2.png" alt="Choix de musiques" style="width:50%" class="img-responsive">
+        <div class="caption">
+          <p>Choix de musiques</p>
+        </div>
+        </a>
+    </div>
+  </div>
+</div>
+<!-->
+
+L'application PHV est conçue pour organiser votre musique en fonction de ses effets sur votre état.
+Elle vous permet d'évaluer votre état émotionnel tout en écoutant les morceaux de musique de votre smartphone, et réorganise ensuite des listes de lecture basées sur les émotions que la musique génère.
 
 
         <?php require_once "footer.php"; ?>

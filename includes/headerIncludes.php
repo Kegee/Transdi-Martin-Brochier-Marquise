@@ -19,7 +19,7 @@
                     </li>
                     <li>
                         <a href="organisation.php">
-                        Notre équipe
+                        L'équipe
                         </a>
                     </li>
                     <li>

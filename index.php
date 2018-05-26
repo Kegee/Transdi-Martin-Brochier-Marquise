@@ -15,10 +15,11 @@ require_once "includes/functions.php";
 
         <p></p>
 
-<img src="images/logo_PHV.png" alt="Logo Personal Hypno Vibes" title="PHV" class="image small">
-
-				<p>L'Ecole Nationale Supérieure de Cognitique est une école d'ingénieurs de Bordeaux-INP [...]</p>
-				<p><a href="https://www.ensc.fr/" target="_blank" >En savoir plus</a></p>
+        <div class="col-md-4" style="padding-left: 0px;  padding-right: 0px;">
+            <img src="images/logo_PHV.png" alt="Logo Personal Hypno Vibes" title="La musique à votre écoute" class="img-thumbnail">
+            <h2> La musique à votre écoute </h2>
+        </div>
+				
 
         <?php require_once "includes/footer.php"; ?>
     </div>
