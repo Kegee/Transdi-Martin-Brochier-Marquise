@@ -1,16 +1,16 @@
 <?php
-require_once "includes/functions.php";
+require_once "functions.php";
 ?>
-<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
 
 <!doctype html>
 <html>
 
-<?php require_once "includes/head.php"; ?>
+<?php require_once "headIncludes.php"; ?>
 
 <body>
     <div class="container">
-        <?php require_once "includes/header.php"; ?>
+        <?php require_once "headerIncludes.php"; ?>
 
 <h3> <span class="glyphicon glyphicon-star"> </span> Qui ? </h3>
 <ul>
@@ -42,10 +42,10 @@ require_once "includes/functions.php";
 </ul>
 
 
-        <?php require_once "includes/footer.php"; ?>
+        <?php require_once "footer.php"; ?>
     </div>
 
-    <?php require_once "includes/scripts.php"; ?>
+    <?php require_once "scripts.php"; ?>
 </body>
 
 </html>

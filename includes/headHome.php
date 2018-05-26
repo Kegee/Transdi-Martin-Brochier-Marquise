@@ -4,5 +4,5 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <title>Projet transdiciplinaire e-mind machine<?php if (isset($pageTitle)) echo "- $pageTitle"; ?></title>
+    <title>Site de l'application Personal Hypno Vibes<?php if (isset($pageTitle)) echo "- $pageTitle"; ?></title>
 </head>
