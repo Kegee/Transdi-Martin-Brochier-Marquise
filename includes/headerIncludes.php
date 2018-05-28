@@ -12,23 +12,23 @@
         </div>
         <div class="collapse navbar-collapse" id="navbar-collapse-target">
             <ul class="nav navbar-nav">
-                    <li>
-                        <a href="application.php" >
+            <li>
+                        <a href="includes/application.php" class="black">
                             L'application
                         </a>
                     </li>
                     <li>
-                        <a href="organisation.php">
+                        <a href="includes/organisation.php" class="black">
                         L'équipe
                         </a>
                     </li>
                     <li>
-                     <a href="évènements.php">
+                     <a href="includes/evenements.php" class="black">
                      Les évènements
                     </a>
                      </li>
                      <li>
-                     <a href="contact.php">
+                     <a href="includes/contact.php" class="black">
                      Nous contacter
                     </a>
                      </li>

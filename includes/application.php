@@ -66,10 +66,10 @@ require_once "functions.php";
     Elle vous permet d'évaluer votre état émotionnel tout en écoutant les morceaux de musique de votre smartphone, et réorganise ensuite des listes de lecture basées sur les émotions que la musique génère.
     </div>
 
-    <?php require_once "footer.php"; ?>
+    
   </div>
-
-<?php require_once "scripts.php"; ?>
+  <?php require_once "footer.php"; ?>
+  <?php require_once "scripts.php"; ?>
 </body>
 
 </html>

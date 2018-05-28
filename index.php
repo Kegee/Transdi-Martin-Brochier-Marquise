@@ -17,13 +17,15 @@ require_once "includes/functions.php";
 
         <div class="col-md-4" style="padding-left: 0px;  padding-right: 0px;">
             <img src="images/logo_PHV.png" alt="Logo Personal Hypno Vibes" title="La musique à votre écoute" class="img-thumbnail">
-            <h2> La musique à votre écoute </h2>
         </div>
-				
 
-        <?php require_once "includes/footer.php"; ?>
+        <div class="col-md-8">
+        <h2> La musique à votre écoute </h2>
+        </div>		
+
+        
     </div>
-
+    <?php require_once "includes/footer.php"; ?>
     <?php require_once "includes/scripts.php"; ?>
 </body>
 

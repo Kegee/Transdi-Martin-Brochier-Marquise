@@ -31,3 +31,12 @@ body {
     height: 40%;
     width: 40%;
 }
+
+p{font-size:small;}
+
+.navbar-default {
+    background-color:#87CEFA;
+    border-color: #E7E7E7;
+}
+
+.black{color: black;}
